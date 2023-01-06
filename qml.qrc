@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>icons8-trash-96(1).png</file>
+        <file>icons8-trash-96.png</file>
+        <file>icons8-trash-48.png</file>
+        <file>icons8-settings-96.png</file>
+        <file>icons8-settings-48.png</file>
+        <file>icons8-refresh-64.png</file>
+        <file>icons8-opened-folder-96.png</file>
+        <file>icons8-opened-folder-48.png</file>
+        <file>icons8-menu-96.png</file>
+        <file>icons8-menu-64.png</file>
+        <file>icons8-folder-96.png</file>
+        <file>icons8-folder-48.png</file>
+        <file>icons8-contacts-96.png</file>
+        <file>icons8-contacts-48.png</file>
+        <file>icons8-calendar-96.png</file>
+        <file>icons8-calendar-48.png</file>
+        <file>icons8-actualizar-40.png</file>
+        <file>icons8-actualizar-30.png</file>
+        <file>phone-call.png</file>
+        <file>success.png</file>
+        <file>telephone-symbol-button.png</file>
+        <file>agMedica.js</file>
+        <file>mic.png</file>
+        <file>speaker.png</file>
+        <file>profileUtente.png</file>
+        <file>checkCalendar.png</file>
+        <file>medical-icon-png-28.jpg</file>
+        <file>delete-icon.png</file>
+        <file>AgMedicaMenuControl.js</file>
+        <file>patient-icon.png</file>
+        <file>correo.png</file>
+        <file>pencil.png</file>
+        <file>escritura.png</file>
+        <file>buttonRegister.png</file>
+        <file>buttonSave02.png</file>
+        <file>registration01.png</file>
+        <file>registration02.png</file>
+        <file>email.png</file>
+        <file>whatsapp.png</file>
+        <file>phone-message.png</file>
+        <file>chat.png</file>
+        <file>call.png</file>
+    </qresource>
+</RCC>
