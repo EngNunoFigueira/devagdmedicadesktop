@@ -13,7 +13,7 @@ closeTime:""
 }
 
 /*..................................................................................
-. Theses couples of functions are used to get the data from Restfull API server    .
+. Theses couples of functions, are used to get the data from Restfull API server   .
 . and fill the QML LISTVIEW with theses information                                .
 ....................................................................................*/
 
