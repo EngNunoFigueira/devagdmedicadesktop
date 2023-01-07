@@ -1,4 +1,4 @@
-let dataObjLength =0
+let dataObjLength = 0
 var locale= Qt.locale()
 var currentDate = new Date()
 let indexToRemove =1000
@@ -180,7 +180,7 @@ function apiGetExamesData() {
 
 /*..................................................................................
 . Theses couples of functions are used to implement the algoritm that update       .
-. the data server using a Restfull API interface                                   .
+. the data on the server using as the Restfull API interface                       .
 ....................................................................................*/
 function getTimeStamp()
 {
@@ -211,12 +211,12 @@ function getModelCurrentItem(item, modelName)
          };
 }
 
-function apiPostData()
+function apiPutTicketStatus()
 {
  var json = JSON.stringify(modelItemToUpdate)
  const url="http://10.10.10.90:5000/registers/"+modelItemToUpdate._id
  console.log("this is the URI "+ url)
- console.log("Item Status: "+modelItemToUpdate.status)
+ console.log("Ticket Status: "+modelItemToUpdate.status)
 
  var request = new XMLHttpRequest();
  request.open("PUT", url, true);
@@ -229,7 +229,6 @@ function apiPostData()
                   { console.error(users); }
               }
  request.send(json);
-
 }
 
 
@@ -245,6 +244,5 @@ function loadUtenteRegister()
 
 function loadCalendarDays()
 {
-    //console.log("ONLY AVAIBLE IN FUTURE RELEASE")
-
+    console.log("ONLY AVAIBLE IN FUTURE RELEASE")
 }

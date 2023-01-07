@@ -337,7 +337,7 @@ Window {
                             ActionsManager.refreshListViewModel(
                                         modelAttGeral,
                                         ActionsManager.indexToRemove)
-                            ActionsManager.apiPostData()
+                            ActionsManager.apiPutTicketStatus()
                         }
                     }
                 }
@@ -413,7 +413,7 @@ Window {
                             ActionsManager.refreshListViewModel(
                                         modelConsulta,
                                         ActionsManager.indexToRemove)
-                            ActionsManager.apiPostData()
+                            ActionsManager.apiPutTicketStatus()
                         }
                     }
                 }
@@ -488,7 +488,7 @@ Window {
                             ActionsManager.refreshListViewModel(
                                         modelExames,
                                         ActionsManager.indexToRemove)
-                            ActionsManager.apiPostData()
+                            ActionsManager.apiPutTicketStatus()
                         }
                     }
                 }
@@ -561,7 +561,7 @@ Window {
                             ActionsManager.refreshListViewModel(
                                         modelResultados,
                                         ActionsManager.indexToRemove)
-                            ActionsManager.apiPostData()
+                            ActionsManager.apiPutTicketStatus()
                         }
                     }
                 }
@@ -636,7 +636,7 @@ Window {
                             ActionsManager.refreshListViewModel(
                                         modelVisitas,
                                         ActionsManager.indexToRemove)
-                            ActionsManager.apiPostData()
+                            ActionsManager.apiPutTicketStatus()
                         }
                     }
                 }
